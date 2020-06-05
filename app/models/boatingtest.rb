@@ -1,5 +1,4 @@
-require_relative './student.rb'
-require_relative './instructor.rb'
+
 
 
 class BoatingTest
@@ -7,7 +6,8 @@ class BoatingTest
 
     @@all = []
 
-    def initialize (Student, boating_test_name, boating_test_status, Instructor)
+    def initialize (student, boating_test_name, boating_test_status, instructor)
+        @student=student
         @boating_test_name = boating_test_name
         @boating_test_status = boating_test_status
         @instructor = instructor

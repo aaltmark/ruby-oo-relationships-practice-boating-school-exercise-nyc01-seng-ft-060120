@@ -1,6 +1,5 @@
 require 'pry'
-require_relative './boatingtest.rb'
-require_relative './instructor.rb'
+
 
 class Student
 
